@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    background-image: url(https://cdn.icon-icons.com/icons2/896/PNG/512/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png);
+    background-size: 6rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#title-img {
+    width: 300px;
+    height: auto;
+    background-color:rgb(145, 37, 37) ;
+    border: 5px solid rgb(191, 170, 50)
+}
+
+#ul-pkmn {
+    background-color: rgb(219, 183, 183) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+#ul-pkmn :hover {
+    transform: scale(1,1);
+    transition: 0.3s;
+    background-color: rgb(174, 172, 170);
+}
+
+#div-img {
+    background-color: rgb(81, 31, 31);
+    border-radius: 20px;
+}
+
+#id-pkmn {
+    color: rgb(203, 170, 37);
+}
+
+#name-pkmn {
+    background-color: rgb(81, 31, 31);
+    text-align: center;
+    height: 3rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#form-pkmn {
+    justify-self: center;
+    margin-top: 20px;
+}
+
+input[type=text] {
+    width: 10rem;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://cdn.icon-icons.com/icons2/37/PNG/512/Search_find_3519.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding: 8px 15px 8px 30px;      
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.filtro {
+    display: none;
+}
+
+#div-info {
+    background-color: rgb(135, 45, 45) ;
+    width: 25%;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#name-info {
+    font-size: 20px;
+}
+
+#return-btn {
+    padding: 5px;
+    width: 60%;
+    align-self: center;
+    margin-top: 20px;
+}
+
+#img-pokemon {
+    background-color: rgb(223, 168, 168);
+    border-radius: 20px;
+    height: 10rem;
+    
+} 
+
+
+h4 {
+    font-size: 20px;
+}
